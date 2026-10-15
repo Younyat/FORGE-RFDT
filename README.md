@@ -1,16 +1,10 @@
-![INCIBE funding](Images_readme/logo_fondos_incibe.png)
 
-This repository is part of the project **“CiberIA: Investigación e Innovación para la Integración de Ciberseguridad e Inteligencia Artificial”** (Proyecto C079/23), financed by the European Union NextGeneration-EU, the Recovery Plan, Transformation and Resilience, through INCIBE.
 
-It is also supported by the **Programa Global de Innovación en Seguridad** for the promotion of Cátedras de Ciberseguridad en España, funded by the European Union NextGeneration-EU Funds through the Instituto Nacional de Ciberseguridad (INCIBE).
+# FORGE-RFDT
 
----
+## Forensic Reproducibility and Grounded Experimentation – Radio Frequency & Digital Twin
 
-# FORGE-VI
-
-## Forensic Reproducibility and Grounded Experimentation for Virtualized Infrastructures
-
-**FORGE-VI** is an open virtualized platform for reproducible **Digital Forensics and Incident Response (DFIR)** experimentation in **IT/OT** environments.
+**FORGE-RFDT** is an open  platform for reproducible **Digital Forensics and Incident Response (DFIR)** experimentation in **IT/OT** environments.
 
 It links controlled scenario deployment, incident execution, detection, volatility-aware acquisition, verifiable preservation, post-acquisition analysis, forensic reconstruction, and cross-run comparison inside a single auditable workflow.
 
@@ -19,7 +13,7 @@ The platform supports two complementary uses:
 - **Research-oriented DFIR experimentation**, where the forensic case is treated as the experimental unit.
 - **Structured cybersecurity and DFIR training**, where users interact with realistic tools, scenarios, attacks, detections, acquisition workflows, and forensic reporting surfaces.
 
-A typical FORGE-VI execution follows this chain:
+A typical FORGE-RFDT execution follows this chain:
 
 ```text
 Scenario declaration
@@ -40,7 +34,7 @@ The next section describes the infrastructure required to run this workflow.
 
 ## 1. Infrastructure Deployment
 
-FORGE-VI runs over a local OpenStack-based virtualized infrastructure. The infrastructure must be deployed before using the scenario editors, dashboards, attack workflows, and forensic modules.
+FORGE-RFDT runs over a local OpenStack-based virtualized infrastructure. The infrastructure must be deployed before using the scenario editors, dashboards, attack workflows, and forensic modules.
 
 ### 1.1 Baseline Host Requirements
 
@@ -88,7 +82,7 @@ and avoid committing environment-specific credentials.
 
 ### 1.3 Start the Platform UI
 
-To launch the FORGE-VI dashboards, run:
+To launch the FORGE-RFDT dashboards, run:
 
 ```bash
 bash start_dashboard.sh
